@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily:{
-    signature:['Sixtyfour']
+    signature:['Sixtyfour'],
+    retro:['Honk']
     },
   },
   plugins: [],
