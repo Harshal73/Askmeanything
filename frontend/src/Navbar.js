@@ -19,7 +19,7 @@ const Navbar = () => {
       >
         {/* Navigation items go here */}
         <li>
-          <a className="text-white  hover:text-orange-500 pr-10  " href="#">
+          <a className="text-white  hover:text-orange-500   " href="#">
             Forums
           </a>
         </li>
@@ -53,7 +53,7 @@ const Navbar = () => {
             Sign Up
           </a>
         </li>
-        <label className="relative block">
+        <label className="relative block pr-2 ">
           <span className=" flex flex-row"></span>
           <input
             className="placeholder:italic placeholder:text-slate-400 block bg-white w-32 border text-black border-slate-300 rounded-md   shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
